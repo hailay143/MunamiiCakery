@@ -3,7 +3,6 @@
     margin: auto;
     padding: auto;
 }
-/*  */
 body {
     background-color:aliceblue;
 }
@@ -22,7 +21,7 @@ body {
     margin-bottom: 15px;
 
 }
-
+/* Menu setting */
 .menu{
     display: block;
     margin-left: auto;
@@ -63,15 +62,17 @@ body {
     margin-left: 10px;
     margin-right: 10px
 }
-
-/* footer {
+.homeBackground img{
     display: block;
-    display:inline;
-} */
-
+    display:left;
+    border-style:inset;
+    margin-top: 10px;
+    width: 250px;
+}
+/* Footer setting */
 .footer{
-    margin-top: 300px;
-    height: 200px;
+    margin-top: 10px;
+    height: 150px;
     background-color: #e9bdb7;
 }
 h4 {
@@ -100,13 +101,23 @@ h4 {
     margin-bottom: 10px; 
 
 }
-
+/* about.html */
 .aboutPage {
     text-align: left;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
+.aboutBackground img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:double;
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+}
+/* products.html */
 .productsPage {
     display:block;
     display: inline-block;
