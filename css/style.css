@@ -1,83 +1,71 @@
  /*Setting the marin for the whole page*/
 * {
-    margin: auto;
+    margin:auto;
     padding: auto;
-}
-body {
     background-color:aliceblue;
 }
-.mainPage{
-    margin-top:auto;
-    margin-bottom: auto;
-}
- /*updating the Logo*/
-.mainLogo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+/* Background setting */
+.container {
 
+   /* background-image: url(../images/cake-shop-flat-design-concept-vector-12638975.jpg);
+   margin: auto;
+   padding: auto;  */
 }
-/* Menu setting */
-.menu{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    /*
-    float: left;
-    list-style: none;
-    margin-top: 30px; 
-    text-align: center; */ 
-}
-.menu li{
-    /*Puting the menu bars in line*/
+/* Logo setting */
+.logo{
     display:block;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    width: 160px;
+    cursor: pointer;
 }
-.menu li a{
-    /*Updating the menu bar menus*/
-    color:#25251f;
+/* Navigation bar setting for all */
+nav ul{
+    list-style-type:circle;
     text-align: center;
-    padding: 2px 6px;
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-top: 10px;
 }
-.menu li.activeMain a:hover{
-    /*updating the HOME menu only*/
+nav ul li{
+   display:inline-block;
+   font-size: 20px;
+   padding: 10px;
+} 
+nav ul li a{
+    text-decoration:underline;
+    color:#27802c;
+    padding: 3px 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; 
+}
+nav ul li.activeMain a:hover{
     border: 1px solid #1b3f0d;
 }
-.menu li a:hover{
-     /*Hovering over the other menus semilar to the HOME menu*/
+nav ul li a:hover{
     border: 1px solid #1b4b08;
 }
-.welcomeMessage{
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px
+
+/*footer setting for all */
+.footer ul li{
+    display: fixed;
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width:100%;
+    height:40px;
+    background:#6cf;
 }
-.homeBackground img{
-    display: block;
-    display:left;
-    border-style:inset;
-    margin-top: 10px;
-    width: 250px;
-}
-/* Footer setting */
-.footer{
-    margin-top: 10px;
-    height: 150px;
-    background-color: #e9bdb7;
-}
-h4 {
-    display: block;
-    text-align: center;
+
+.footer a {
+    text-decoration: none;
+    color: #99986a;
+    padding-right: 30px;
+    font-size: 15px;
+    margin-top:10px;
+    background:#6cf;
+    /* margin-bottom:20px; */
 }
 
 .footer img{
@@ -85,82 +73,179 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     display: inline;
-    width: 25px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 10px;  
+    width: 15px;
+    margin-top:10px;
+    background:#6cf;
+    /*margin-bottom:20px; */
 }
-.footer a {
-    display: block;
+/* HOME page content settings*/
+.homeContent{
+    margin-left: 5%;
+    margin-top: 0%; 
+}
+.homeContent .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+}
+.homeContent h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #232d60;
+    margin-left: 40px;
+}
+.homeContent p{
+    font-size: 20px;
+    color: #0a0a63;
+    text-decoration:initial;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.showCase{
+    /* display: flex;
     margin-left: auto;
     margin-right: auto;
-    display: inline;
-    width: 20px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 10px; 
+    cursor: pointer; */
+    margin-top: 20px; 
+}
+.showCase img{
+    margin-left: 200px;
+    margin-right: auto;
+    cursor: pointer;
+    border-style:double;
+    /* margin-top: 10px; */
+    width: 200px;
+    border-radius: 50%;
+    /* height: auto; */
+}
+
+
+/* about.html */
+.aboutContent{
+    margin-left: 5%;
+    margin-top: 0%; 
+}
+.aboutContent .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+}
+.aboutContent p{
+    font-size: 20px;
+    color: #0a0a63;
+    text-decoration:initial;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+/* products.html */
+.productsContent{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+    margin-top: 20px;
+    margin-left: 40px;
 
 }
-/* about.html */
-.aboutPage {
-    text-align: left;
+.productsContent h1{
+    font-size: 25px;
+    font-weight: 100;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #554720;
+    margin-left: 40px;
 }
-.aboutBackground img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style:double;
+.productsContent a{
+    font-size: 15px;
+    color: #0a0a63;
+    text-decoration:initial;
     margin-top: 10px;
-    width: 400px;
-    height: auto;
+    margin-left: 70px;
 }
-/* products.html */
-.productsPage {
-    display:block;
+.productsContent .btn1{
     display: inline-block;
-    text-align:left;
-    margin-left:auto;
-    margin-right: auto; 
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
 }
-.productsPage li {
-    display:block;
+.productsContent .btn2{
     display: inline-block;
-    margin-top: 20px;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
 }
-.productsPage li a {
-    display:block;
-    text-align:left;
-    margin-left: 10px;
-    margin-right: auto; 
+
+/* Contact page setting */
+.contactContent{
+    margin-left: 5%;
+    margin-top: 0%; 
 }
-.productsPage a:hover {
-    border: 1px solid #1b4b08;
+.contactContent .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
 }
-.productBackground img { 
-    display: block;
-    display:left;
-    border-style:dashed;
-    margin-top: 30px;
-    width: 400px;
-    height: auto;
+.contactContent p{
+    font-size: 20px;
+    color: #0a0a63;
+    text-decoration:initial;
+    margin-top: 10px;
+    margin-left: 70px;
 }
-.contactDetails{
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px
+
+/*cupcakes.html */
+.cupcakesContent{
+    margin-left: 5%;
+    margin-top: 0%;
 }
-/* cupkakes.html */
-.cupCakesList li {
+.cupcakesContent .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+}
+.cupcakesContent li {
     display:block;
     text-align:center;
     margin-left: auto;
     margin-right: auto; 
 }
-.cupCakesList li img {
+.cupcakesContent li img {
     display: block;
     display:center;
     background-size: cover;
@@ -169,43 +254,47 @@ h4 {
     width: 250px;
     height: 250px;
 }
-.cupCakesList li p {
+.cupcakesContent li p {
     text-align: center;
     margin-top: 20px;
     margin-left: 10px;
-    margin-right: 10px
-    
+    margin-right: 10px  
 }
-.cupCakesList h4 {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-}
+
 /* Wedding cakes.html */
-.weddingCakes li {
+
+.weddingcakesContent{
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.weddingcakesContent .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+}
+.weddingcakesContent li {
     display:block;
     text-align:center;
-    margin: left 5px;;
+    margin-left: auto;
     margin-right: auto; 
 }
-.weddingCakes li img {
+.weddingcakesContent li img {
     display: block;
     display:center;
     background-size: cover;
     border-style: double;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 250px;
     height: 250px;
 }
-.weddingCakes li p {
+.weddingcakesContent li p {
     text-align: center;
     margin-top: 20px;
     margin-left: 10px;
-    margin-right: 10px
-    
-}
-.weddingCakes h4 {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
+    margin-right: 10px  
 }
