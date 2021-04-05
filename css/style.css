@@ -1,17 +1,10 @@
- /*Setting the marin for the whole page*/
+/*Setting the marin for the whole page*/
 * {
     margin:auto;
     padding: auto;
     background-color:aliceblue;
 }
-/* Background setting */
-.container {
 
-   /* background-image: url(../images/cake-shop-flat-design-concept-vector-12638975.jpg);
-   margin: auto;
-   padding: auto;  */
-}
-/* Logo setting */
 .logo{
     display:block;
     margin-left:auto;
@@ -30,15 +23,13 @@ nav ul{
 }
 nav ul li{
    display:inline-block;
-   font-size: 20px;
-   padding: 10px;
-} 
+}  
 nav ul li a{
     text-decoration:underline;
     color:#27802c;
-    padding: 3px 5px;
+    padding: 2px 3px;
     font-family: "Roboto", sans-serif;
-    font-size: 20px; 
+    font-size: 15px; 
 }
 nav ul li.activeMain a:hover{
     border: 1px solid #1b3f0d;
@@ -47,37 +38,7 @@ nav ul li a:hover{
     border: 1px solid #1b4b08;
 }
 
-/*footer setting for all */
-.footer ul li{
-    display: fixed;
-    display: inline-block;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width:100%;
-    height:40px;
-    background:#6cf;
-}
 
-.footer a {
-    text-decoration: none;
-    color: #99986a;
-    padding-right: 30px;
-    font-size: 15px;
-    margin-top:10px;
-    background:#6cf;
-    /* margin-bottom:20px; */
-}
-
-.footer img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-    width: 15px;
-    margin-top:10px;
-    background:#6cf;
-    /*margin-bottom:20px; */
-}
 /* HOME page content settings*/
 .homeContent{
     margin-left: 5%;
@@ -109,21 +70,17 @@ nav ul li a:hover{
     margin-left: 70px;
 }
 .showCase{
-    /* display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer; */
+    margin-left: 50px;
     margin-top: 20px; 
+    margin-bottom: 50px;
 }
 .showCase img{
-    margin-left: 200px;
+    margin-left: auto;
     margin-right: auto;
     cursor: pointer;
     border-style:double;
-    /* margin-top: 10px; */
     width: 200px;
     border-radius: 50%;
-    /* height: auto; */
 }
 
 
@@ -147,26 +104,25 @@ nav ul li a:hover{
     color: #0a0a63;
     text-decoration:initial;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 20px;
 }
-
 
 /* products.html */
 .productsContent{
     display: inline-block;
     background: linear-gradient(45deg, #87adfe, #ff77cd);
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 5px 8px;
     box-sizing:border-box;
     text-decoration: none;
     color: #fff;
-    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
+    box-shadow: 5px 15px 22px rgba(94,28,28,0.15);
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15px;
 
 }
 .productsContent h1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -182,7 +138,7 @@ nav ul li a:hover{
 }
 .productsContent .btn1{
     display: inline-block;
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    background: linear-gradient(45deg, #00A170, #FFA500);
     border-radius: 10px;
     padding: 10px 20px;
     box-sizing:border-box;
@@ -192,7 +148,7 @@ nav ul li a:hover{
 }
 .productsContent .btn2{
     display: inline-block;
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    background: linear-gradient(45deg, #00A170, #FFA500);
     border-radius: 10px;
     padding: 10px 20px;
     box-sizing:border-box;
@@ -221,80 +177,90 @@ nav ul li a:hover{
     color: #0a0a63;
     text-decoration:initial;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-/*cupcakes.html */
-.cupcakesContent{
-    margin-left: 5%;
-    margin-top: 0%;
+/* Footer page seeting*/
+
+.footerPage ul li{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:40px;
+    background-color:#E9897E;
+    text-align: center; 
 }
-.cupcakesContent .btn{
-    display: inline-block;
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
-    border-radius: 6px;
-    padding: 10px 20px;
-    box-sizing:border-box;
+
+.footerPage a {
     text-decoration: none;
-    color: #fff;
-    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
-}
-.cupcakesContent li {
-    display:block;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.cupcakesContent li img {
-    display: block;
-    display:center;
-    background-size: cover;
-    border-style: double;
-    margin-top: 30px;
-    width: 250px;
-    height: 250px;
-}
-.cupcakesContent li p {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px  
+    padding-right: 10px;
+    font-size: 15px;
+    background:#E9897E;
 }
 
-/* Wedding cakes.html */
-
-.weddingcakesContent{
-    margin-left: 5%;
-    margin-top: 0%;
-}
-.weddingcakesContent .btn{
-    display: inline-block;
-    background: linear-gradient(45deg, #87adfe, #ff77cd);
-    border-radius: 6px;
-    padding: 10px 20px;
-    box-sizing:border-box;
-    text-decoration: none;
-    color: #fff;
-    box-shadow: 3px 8px 22px rgba(94,28,28,0.15);
-}
-.weddingcakesContent li {
-    display:block;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.weddingcakesContent li img {
+.footerPage img{
     display: block;
-    display:center;
-    background-size: cover;
-    border-style: double;
-    margin-top: 30px;
-    width: 250px;
-    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    width: 15px;
+    margin-top:10px;
+    background:#E9897E;
 }
-.weddingcakesContent li p {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px  
+
+/*Image listing for products and price list*/
+.page{
+    margin-bottom: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    /* margin-bottom: 20px; */
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 800px) {
+    .page {
+      flex: 50%;
+      max-width: 50%;
+    }
+  } 
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+    .page {
+      flex: 100%;
+      max-width: 100%;
+    } 
 }
