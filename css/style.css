@@ -105,6 +105,7 @@ nav ul li a:hover{
     text-decoration:initial;
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 15px;
 }
 
 /* products.html */
@@ -210,6 +211,7 @@ nav ul li a:hover{
     background:#E9897E;
 }
 
+
 /*Image listing for products and price list*/
 .page{
     margin-bottom: 50px;
@@ -234,7 +236,7 @@ nav ul li a:hover{
     /* margin-bottom: 20px; */
   }
   /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .column {
       flex: 50%;
       max-width: 50%;
@@ -250,7 +252,7 @@ nav ul li a:hover{
   }
 
     /* Responsive layout - makes a two column-layout instead of four columns */
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
     .page {
       flex: 50%;
       max-width: 50%;
